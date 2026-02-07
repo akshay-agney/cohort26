@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    color: #D7D6D5;
+    overflow: hidden;
+    position: relative;
+    background-color: #13120A;
+}
+#page1{
+    width: 50%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+#signin{
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: #D7D6D5;
+}
+
+#download{
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #D7D6D5;
+}
+.dwn{
+    display: flex;
+    background-color: #D7D6D5;
+    color: #13120A;
+}
